@@ -11,9 +11,9 @@ Typical usage (from the repository root):
 
     python task1_stitch.py \\
         --images ./images \\
-        --output ./output/task1_panorama.jpg \\
-        --reference ./comparisons/mobile_panaroma.JPG \\
-        --comparison-output ./output/task1_vs_mobile.jpg
+        --output ./output/task1_panorama1.jpg \\
+        --reference ./comparisons/mobi_panaroma.JPG \\
+        --comparison-output ./output/task1_vs_mobi.jpg
 
 Requirements:
     - Python 3.9+
