@@ -44,9 +44,9 @@ top-to-bottom for portrait panoramas).
 python task1_stitch.py \
   --images ./images \
   --pattern "*.JPG" \
-  --output ./output/task1_panorama.jpg \
-  --reference ./comparisons/mobile_panaroma.JPG \
-  --comparison-output ./output/task1_vs_mobile.jpg
+  --output ./output/task1_panorama1.jpg \
+  --reference ./comparisons/mobi_panaroma.JPG \
+  --comparison-output ./output/task1_vs_mobi.jpg
 ```
 
 Key switches:
@@ -103,8 +103,8 @@ homographies).
 
 ```bash
 python task2_sift.py \
-  --image-a ./images/01.JPG \
-  --image-b ./images/02.JPG \
+  --image-a ./images/IMG_01.JPG \
+  --image-b ./images/IMG_02.JPG \
   --resize-width 960 \
   --output-dir ./output/task2 \
   --octaves 4 \
